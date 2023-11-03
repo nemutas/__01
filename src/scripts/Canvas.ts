@@ -2,7 +2,6 @@ import * as THREE from 'three'
 import { three } from './core/Three'
 import fragmentShader from './shader/points.fs'
 import vertexShader from './shader/points.vs'
-import { gui } from './Gui'
 
 export class Canvas {
   private points!: THREE.Points<THREE.BufferGeometry, THREE.RawShaderMaterial>
